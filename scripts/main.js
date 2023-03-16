@@ -17,7 +17,7 @@ function setUserName() {
       setUserName() ;
     } else {
       localStorage.setItem('name', myName); ///保存到本地
-      myHeading.textContent = 'Mozilla 酷毙了，' + myName;
+      myHeading.textContent = '欢迎你，' + myName;
     }
 }
 if (!localStorage.getItem('name')) {
